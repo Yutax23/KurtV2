@@ -32,7 +32,7 @@ module.exports = {
             reply += ` | ${num < 10 ? "0" + num : num}. ${name}\n`;
           }
         });
-        reply += `├─────────────⭓\n | [ 🔥 | KurtV2 ]\n`;
+        reply += `├─────────────⭓\n | [ 🤖 | MysterMask ]\n`;
       } else {
         reply +=
           " | No commands available.\n├─────────────⭓\n | [ 🔥 | KurtV2 ]\n";
@@ -58,7 +58,7 @@ module.exports = {
  | Usage: ${formattedUsage}
  | Role: ${role === undefined ? "Everyone" : formattedRole}
 ├─────────────⭓
- | [ 🔥 | 𝗞𝘂𝗿𝘁𝗩2 ]
+ | [ 🤖 | MysterMask ]
 ╰─────────────⭓
         `.trim();
         message.reply(reply);
